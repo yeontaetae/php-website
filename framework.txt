@@ -1,0 +1,44 @@
+Purpose: To learn about the PHP file, and get use to it by creating the webste.
+
+Implementation:
+
+index.php :
+This template is the main homepage of Art by You website. 
+Adapted the template of index.php from A2:
+    Added the php code to upload the text and image from the database (About table).
+
+about.php :
+This template is the about page of Art by You website.
+Adapted the about.php template from A2:
+    Added the php code to uploade the text, story, and image from the database (About table).
+
+post.php :
+This template contains the post form, which allows to upload the file of artwork on the website(and other information about artwork).
+Adapted the template from post.php from A2: 
+    Removed the csv.file uploading method from php code, and replace with database uploading method to it.
+
+aboutArtist.php:
+this template contains the information of each artist from artists.php. 
+Adapted the template from aboutArtist.php from A2:
+    By using the database, added the connection to sql query to display the artist information by clicking specific artist from artist.php, and display their artworks on the website.
+
+artists.php : 
+this template contains the information about the artists. 
+Added the php codes for connecting database to display the artists on the website from database by reading the file.
+
+collections.php : 
+this template contains the collections of themes. 
+Added the php codes to display the list of themes from the database (Theme table). 
+
+theme.php :
+this template contains the collections of artwork that matches the specific themes.
+Adapted the template from theme.php from A2:
+    By connecting to database, display the artwork information by clicking specific theme from collections.php, and display their artworks on the website from Artwork table in database.
+    Used the linked text to leads to aboutArtist.php for specific artist by clicking the artwork.
+
+serverlogin.php:
+This template contains the database hostname, username, password, and database name for loging to server.
+
+Reference:
+1. Modern Business - Template Preview - Start Bootstrap[Source code]. https://startbootstrap.com/previews/modern-business. [Date Accessed: Jan 25, 2023]
+2. pictures. CSCI 2170 - Intro to Server Side Scripting, Brightspace. https://dal.brightspace.com/d2l/le/content/248876/viewContent/3518943/View [Date Accessed: Feb.19, 2023]
